@@ -5,7 +5,7 @@ const { exec } = require('pkg')
 const { name, version } = require('../package.json')
 const { tgz } = require('compressing')
 
-const distIndex = 'dist/index.js'
+const distIndex = '../dist/index.js'
 const release = 'release'
 
 function log(message) {
